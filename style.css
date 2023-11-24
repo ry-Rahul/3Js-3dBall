@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    font-family: "General Sans";
+    background-color: #000000;
+}
+
+.webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+nav {
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: all 0.3s ease;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+nav ul :hover {
+    color: #f26a2e;
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translate(-50%, -50%);
+}
